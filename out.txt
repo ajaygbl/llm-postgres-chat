@@ -1,0 +1,1000 @@
+  999  ls
+ 1000  vi file1.txt 
+ 1001  git add .
+ 1002  git commit -m "city Kota"
+ 1003  git log --oneline
+ 1004  git merge cities_2 
+ 1005  ls
+ 1006  git log --oneline
+ 1007  git checkout -b games
+ 1008  ls
+ 1009  git log --oneline
+ 1010  vi file3.txt
+ 1011  git add .
+ 1012  git commit -m "cricket"
+ 1013  vi file3.txt
+ 1014  git add .
+ 1015  git commit -m "chess"
+ 1016  git log --oneline
+ 1017  git checkout master 
+ 1018  git log --oneline
+ 1019  vi file1.txt 
+ 1020  git add .
+ 1021  git commit -m "vizag"
+ 1022  git log --oneline
+ 1023  git rebase games
+ 1024  git log --oneline
+ 1025  cd
+ 1026  cd rebase_merge_class/
+ 1027  git checkout -b subjects
+ 1028  ls
+ 1029  git log --oneline
+ 1030  vi file4.txt
+ 1031  ls
+ 1032  git add .
+ 1033  git commit -m "science"
+ 1034  vi file4.txt
+ 1035  git add .
+ 1036  git commit -m "Social"
+ 1037  vi file4.txt
+ 1038  git add .
+ 1039  git commit -m "maths"
+ 1040  git log --oneline
+ 1041  git checkout master
+ 1042  git cherry-pick 8ecaf08
+ 1043  ls
+ 1044  git log --oneline
+ 1045  vi file4.txt 
+ 1046  git cherry-pick 36308ea
+ 1047  git status
+ 1048  vi file4.txt 
+ 1049  git status
+ 1050  git add .
+ 1051  git status
+ 1052  git cherry-pick --continue
+ 1053  git log --oneline
+ 1054  vi file4.txt 
+ 1055  ls
+ 1056  git checkout -b categ
+ 1057  vi file5.txt
+ 1058  git add .
+ 1059  git commit -m "opera"
+ 1060  vi file6.txt
+ 1061  git add .
+ 1062  git commit -m "tree"
+ 1063  vi file7.txt
+ 1064  git add .
+ 1065  git commit -m "violet"
+ 1066  ls
+ 1067  git log --oneline
+ 1068  git checkout master
+ 1069  ls
+ 1070  git cherry-pick bc8cf32
+ 1071  ls
+ 1072  vi file8.txt
+ 1073  git add .
+ 1074  git status
+ 1075  git stash save "india"
+ 1076  git status
+ 1077  git stash list
+ 1078  ls
+ 1079  vi file9.txt
+ 1080  git status
+ 1081  git stash save "bhutan"
+ 1082  git stash list
+ 1083  git stash -u save "bhutan"
+ 1084  git stash -u
+ 1085  git stash list
+ 1086  git stash apply
+ 1087  ls
+ 1088  git add ,
+ 1089  git add .
+ 1090  git stash save bhutan
+ 1091  git stash list
+ 1092  git stash apply stash@{2}
+ 1093  ls
+ 1094  vi file8.txt 
+ 1095  git stash
+ 1096  git stash list
+ 1097  git stash pop
+ 1098  git stash list
+ 1099  git stash clear
+ 1100  git stash list
+ 1101  clea
+ 1102  clear
+ 1103  ls
+ 1104  cd
+ 1105  claude
+ 1106  cd ..
+ 1107  npm install -g @anthropic-ai/claude-code
+ 1108  systemctl stop grafana-server
+ 1109  ls
+ 1110  docker compose up
+ 1111  sudo docker compose up
+ 1112  systemctl status grafan-server
+ 1113  systemctl status grafana-server
+ 1114  systemctl start grafana-server
+ 1115  ls
+ 1116  clear
+ 1117  ls
+ 1118  clear
+ 1119  cd ak-love-app/
+ 1120  npm run dev
+ 1121  mkdir git_ignore
+ 1122  rm git_ignore/
+ 1123  rm -r git_ignore/
+ 1124  ls
+ 1125  git clone https://github.com/ajaygbl/git_class3.git
+ 1126  cd git_class3
+ 1127  ls
+ 1128  ls -a
+ 1129  vi sec.txt
+ 1130  ls
+ 1131  git status
+ 1132  vi .gitignore 
+ 1133  git status
+ 1134  git add .
+ 1135  git push 
+ 1136  ls
+ 1137  git status
+ 1138  git push
+ 1139  git status
+ 1140  git commit -m "ignore"
+ 1141  git push
+ 1142  clear
+ 1143  vi file45.txt
+ 1144  ls
+ 1145  git status
+ 1146  git add .
+ 1147  git commit -m "file"
+ 1148  git commit -ammend
+ 1149  git status
+ 1150  git commit -amend
+ 1151  git commit --amend
+ 1152  git status
+ 1153  git commit --amend
+ 1154  cd git_class3/
+ 1155  git status
+ 1156  git log --oneline
+ 1157  vi file45.txt 
+ 1158  git commit --amend
+ 1159  git status
+ 1160  git add .
+ 1161  git status
+ 1162  git commit --amend
+ 1163  git status
+ 1164  git log --oneline
+ 1165  clear
+ 1166  vi file456.txt
+ 1167  git add .
+ 1168  git commit -m "last commit"
+ 1169  git log --oneline
+ 1170  vi file456.txt 
+ 1171  git status
+ 1172  git add .
+ 1173  git commit --amend
+ 1174  git log --oneline
+ 1175  ls
+ 1176  ls -a
+ 1177  vi .gitignore 
+ 1178  git push
+ 1179  vi file45.txt 
+ 1180  git add .
+ 1181  git commit -m "added"
+ 1182  git status
+ 1183  git push
+ 1184  vi file456.txt 
+ 1185  git add .
+ 1186  git commit -m "hy"
+ 1187  git push
+ 1188  git checkout -b test
+ 1189  git push
+ 1190  git push --set-upstream origin test
+ 1191  clear
+ 1192  cd
+ 1193  mkdir git_class_04
+ 1194  cd git_class_04/
+ 1195  git init
+ 1196  vi file1.txt
+ 1197  git add .
+ 1198  git commit -m "added linux"
+ 1199  vi file1.txt
+ 1200  git add .
+ 1201  git commit -m "added windows"
+ 1202  git log --oneline
+ 1203  vi file1.txt 
+ 1204  git add .
+ 1205  git commit --amend
+ 1206  git log --oneline
+ 1207  vi file2.txt
+ 1208  git add .
+ 1209  git commit -m "added reset"
+ 1210  vi file2.txt 
+ 1211  git add .
+ 1212  git commit -m "added save"
+ 1213  git log --oneline
+ 1214  vi file2.txt 
+ 1215  git status
+ 1216  git add .
+ 1217  git commit --amend
+ 1218  git log --oneline
+ 1219  clear
+ 1220  ls
+ 1221  git remote add origin https://github.com/ajaygbl/git_class_04.git
+ 1222  git status
+ 1223  git push
+ 1224  git push --set-upstream origin master
+ 1225  git branch
+ 1226  git checkout -b test_branch
+ 1227  vi file3.txt
+ 1228  git add .
+ 1229  git commit -m "added india"
+ 1230  git push
+ 1231  git push --set-upstream origin test_branch
+ 1232  git checkout master
+ 1233  vi file4.txt
+ 1234  git add .
+ 1235  git commit -m "added oops"
+ 1236  git push
+ 1237  git pull
+ 1238  git config pull.rebase true
+ 1239  git push
+ 1240  git config pull.rebase true
+ 1241  git status
+ 1242  git pull
+ 1243  git push
+ 1244  git branch
+ 1245  vi file5.txt
+ 1246  git add .
+ 1247  git commit -m "hyd"
+ 1248  git push
+ 1249  git checkout -b test_1
+ 1250  git status
+ 1251  git push
+ 1252  git push --set-upstream origin test_1
+ 1253  vi file_01.txt
+ 1254  cd
+ 1255  mkdir test_git
+ 1256  cd test_git/
+ 1257  git init
+ 1258  vi list_01.txt
+ 1259  git add .
+ 1260  git status
+ 1261  vi file1.txt
+ 1262  ls
+ 1263  vi gitignore
+ 1264  ls
+ 1265  vi .gitignore
+ 1266  ls
+ 1267  git status
+ 1268  git add .
+ 1269  git commit -m "ignore"
+ 1270  vi file1.txt 
+ 1271  git status
+ 1272  vi .gitignore 
+ 1273  git status
+ 1274  git add .
+ 1275  git commit -m "text"
+ 1276  vi file2.txt
+ 1277  git add .
+ 1278  git commit -m "science"
+ 1279  vi file2.txt
+ 1280  git add .
+ 1281  git commit -m "social"
+ 1282  git branch
+ 1283  git checkout -b test
+ 1284  ls
+ 1285  vi file2.txt 
+ 1286  git add .
+ 1287  git commit -m "maths"
+ 1288  git branch
+ 1289  git checkout master
+ 1290  git merge test 
+ 1291  git log --oneline
+ 1292  vi file2.txt 
+ 1293  git add .
+ 1294  git commit -m "maths+1"
+ 1295  git checkout test 
+ 1296  git merge master
+ 1297  git status
+ 1298  ls
+ 1299  vi file2.txt 
+ 1300  git branch
+ 1301  git add .
+ 1302  git commit -m "ytu"
+ 1303  vi file2.txt 
+ 1304  git add .
+ 1305  git commit -m "test"
+ 1306  git checkout master
+ 1307  git merge test 
+ 1308  vi file2.txt 
+ 1309  docker ps
+ 1310  sudo docker ps
+ 1311  curl -X POST http://localhost:3000/api/users -H "Content-Type: application/json" -d '{"name": "Alice", "email": "alice@gmail.com"}'
+ 1312  curl -X POST http://localhost:3000/api/users -H "Content-Type: app1ication/json" -d '{"name": "Alice", "email": "alice@gmail.com"}'
+ 1313  cd Downloads/
+ 1314  cd microservices-app/
+ 1315  clear
+ 1316  docker-compose up --build
+ 1317  sudo docker-compose up --build
+ 1318  lsof -i | grep :3000
+ 1319  lsof -i :3000
+ 1320  ls
+ 1321  cd api-gateway/
+ 1322  ls
+ 1323  vi package.json 
+ 1324  vi Dockerfile 
+ 1325  cd ..
+ 1326  cd order-service/
+ 1327  vi Dockerfile 
+ 1328  cd ..
+ 1329  cd user-service/
+ 1330  vi Dockerfile 
+ 1331  cd ..
+ 1332  sudo docker-compose down -v
+ 1333  sudo docker system prune -f
+ 1334  docker-compose up --build
+ 1335  sudo docker-compose up --build
+ 1336  sudo netstat -tlnp | grep :9090
+ 1337  lsof -i :9090
+ 1338  sudo lsof -i :9090
+ 1339  sudo systemctl status prometheus
+ 1340  sudo apt install netstat
+ 1341  ss -tulpn | grep :9090
+ 1342  sudo kill -9 2749
+ 1343  sudo lsof -i :9090
+ 1344  sudo kill -9 29387
+ 1345  sudo lsof -i :9090
+ 1346  docker-compose down -v
+ 1347  sudo docker-compose down -v
+ 1348  sudo docker system prune -f
+ 1349  sudo docker-compose up --build
+ 1350  sudo lsof -i :9090
+ 1351  vi docker-compose.yml 
+ 1352  sudo docker-compose down -v
+ 1353  sudo docker system prune -f
+ 1354  sudo docker-compose up --build
+ 1355  sudo docker ps
+ 1356  curl -X POST http://localhost:3000/api/users   -H "Content-Type: application/json"   -d '{"name": "Joh Joe", "email": "john_joe@example.com"}'
+ 1357  curl -X POST http://localhost:3000/api/users   -H "Content-Type: application/json"   -d '{"name": "Mickey", "email": "mickey@example.com"}'
+ 1358  curl -X POST http://localhost:3000/api/orders   -H "Content-Type: application/json"   -d '{"user_id": 1, "product_name": "MacBook Pro", "quantity": 1, "price": 1299.99}'
+ 1359  curl -X POST http://localhost:3000/api/orders   -H "Content-Type: application/json"   -d '{"user_id": 1, "product_name": "iPhone", "quantity": 2, "price": 999.99}'
+ 1360  curl -X PUT http://localhost:3000/api/orders/1/status   -H "Content-Type: application/json"   -d '{"status": "shipped"}'
+ 1361  sudo docker ps
+ 1362  ls
+ 1363  cd Downloads/
+ 1364  cd microservices-app/
+ 1365  ls
+ 1366  sudo docker-compose up --build
+ 1367  curl -X POST http://localhost:3000/api/users -H "Content-TYpe: application/json" -d '{"name": "mark", "email": "mark@gmail.com"}'
+ 1368  curl -X POST http://localhost:3000/api/orders -H "Content-Type: application/json" -d '{"user_id": 2, "product_name": "Jabra headset", "quantity": 1, "price": 1299.99}'
+ 1369  ls
+ 1370  cd Downloads/
+ 1371  cd microservices-app/
+ 1372  sudo docker-compose up --build
+ 1373  ls
+ 1374  history
+ 1375  ls
+ 1376  cd Downloads/
+ 1377  ls
+ 1378  cd microservices-app/
+ 1379  ls
+ 1380  clear
+ 1381  ls
+ 1382  history
+ 1383  history >> ./history.txt
+ 1384  ls
+ 1385  cat history.txt 
+ 1386  clear
+ 1387  ls
+ 1388  vi history.txt 
+ 1389  passwd
+ 1390  ifconfig
+ 1391  sudo ifconfig
+ 1392  sudo ipconfig
+ 1393  ipconfig
+ 1394  ip
+ 1395  ip address
+ 1396  sudo docker ps
+ 1397  sudo docker exec -it influxdb:1.8.6-alpine bash 
+ 1398  sudo docker exec -it 3c6962aa1a20 bash 
+ 1399  source linux_env/bin/activate
+ 1400  sudo docker ps
+ 1401  sudo docker ps -a
+ 1402  sudo docker run jenkins/jenkins:lts-jdk17
+ 1403  sudo docker run -d jenkins/jenkins:lts-jdk17
+ 1404  sudo docker ps
+ 1405  sudo docker run -d ubuntu/prometheus:2.33-22.04_beta
+ 1406  sudo docker run -d grafana/grafana:8.5.5
+ 1407  sudo docker run -d influxdb:1.8.6-alpine
+ 1408  clear
+ 1409  sudo docker ps
+ 1410  sudo docker stop 723c8b4c9499
+ 1411  sudo docker stop 2fa5ed64db71
+ 1412  sudo docker stop fe9867b4022e
+ 1413  sudo docker stop f4e3d090f964
+ 1414  sudo docker ps
+ 1415  clear
+ 1416  sudo docker ps -a
+ 1417  sudo docker run -d -p 8081:8080 f4e3d090f964
+ 1418  sudo docker run -d -p 8081:8080 jenkins/jenkins:lts-jdk17
+ 1419  sudo docker ps
+ 1420  sudo docker run -d -p 8081:8080 ubuntu/prometheus:2.33-22.04_beta
+ 1421  sudo docker run -d -p 9091:9090 ubuntu/prometheus:2.33-22.04_beta
+ 1422  sudo docker run -d -p 3000:3000 grafana/grafana:8.5.5
+ 1423  sudo docker run -d -p influxdb:1.8.6-alpine
+ 1424  sudo docker run -d -p 8086:8086 influxdb:1.8.6-alpine
+ 1425  sudo docker ps
+ 1426  clear
+ 1427  sudo docker ps
+ 1428  wget -o https://www.youtube.com/watch?v=AHSHksfg1BE&t=1s
+ 1429  docker exec -it cd1ad6b3bb10 bash
+ 1430  sudo docker exec -it cd1ad6b3bb10 bash
+ 1431  sudo docker ps
+ 1432  sudo docker ps -a
+ 1433  sudo docker start cd1ad6b3bb10
+ 1434  sudo docker ps
+ 1435  vi prometheus.yml 
+ 1436  sudo docker restart 62d30ab171a5
+ 1437  sudo docker ps
+ 1438  sudo docker stop 62d30ab171a5
+ 1439  docker run -d --name prometheus-container -v /home/ajay/prometheus.yml:/etc/prometheus/prometheus.yml -e TZ=UTC -p 9091:9090 ubuntu/prometheus:2.33-22.04_beta
+ 1440  sudo docker run -d --name prometheus-container -v /home/ajay/prometheus.yml:/etc/prometheus/prometheus.yml -e TZ=UTC -p 9091:9090 ubuntu/prometheus:2.33-22.04_beta
+ 1441  sudo docker run -d --name prometheus-container -v /home/ajay/prometheus.yml:/etc/prometheus/prometheus.yml -e TZ=UTC -p 9091:909090 ubuntu/prometheus:2.33-22.04_beta
+ 1442  sudo docker run 62d30ab171a5
+ 1443  sudo docker run -d 62d30ab171a5
+ 1444  sudo docker ps -a
+ 1445  sudo docker start -d 62d30ab171a5
+ 1446  sudo docker start 62d30ab171a5
+ 1447  sudo docker ps
+ 1448  sudo docker cp /home/ajay/prometheus.yml 62d30ab171a5:/etc/prometheus/prometheus.yml
+ 1449  sudo docker ps
+ 1450  sudo docker restart 62d30ab171a5
+ 1451  sudo docker ps
+ 1452  sudo docker start 62d30ab171a5
+ 1453  sudo docker ps
+ 1454  sudo docker start 62d30ab171a5
+ 1455  sudo docker ps
+ 1456  sudo docker ps -a
+ 1457  sudo docker start 62d30ab171a5
+ 1458  sudo docker ps -a
+ 1459  sudo docker ps
+ 1460  clear
+ 1461  sudo docker run -d -p 9091:9090 -v /home/ajay/prometheus.yml:/etc/prometheus/prometheus.yml  ubuntu/prometheus:2.33-22.04_beta
+ 1462  sudo docker ps
+ 1463  sudo docker ps -a
+ 1464  sudo docker run -d -p 9092:9090 -v /home/ajay/prometheus.yml:/etc/prometheus/prometheus.yml  ubuntu/prometheus:2.33-22.04_beta
+ 1465  sudo docker ps -a
+ 1466  sudo docker ps
+ 1467  restart
+ 1468  reboot
+ 1469  ip addr
+ 1470  sudo docker exec -it 0fe53bcf8a81 bash
+ 1471  sudo docker ps
+ 1472  sudo docker start 0fe53bcf8a81
+ 1473  cd airflow/
+ 1474  source airflow_env/bin/activate
+ 1475  airflow api-server --poert 8085
+ 1476  airflow api-server --port 8085
+ 1477  exit
+ 1478  ls
+ 1479  mkdir airflow_docker
+ 1480  cd airflow_docker/
+ 1481  vi docker-compose.yml
+ 1482  mv docker-compose.yml docker-compose.yaml
+ 1483  ls
+ 1484  mkdir ./dags ./logs ./plugins
+ 1485  echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
+ 1486  docker-compose up airflow-init
+ 1487  sudo docker-compose up airflow-init
+ 1488  sudo docker-compose up -d
+ 1489  ls
+ 1490  rm docker-compose.yaml 
+ 1491  curl -LfO 'https://airflow.apache.org/docs/apache-airflow/3.1.0/docker-compose.yaml'
+ 1492  code .
+ 1493  echo -e "AIRFLOW_UID=$(id -u)" > .env
+ 1494  AIRFLOW_UID=50000
+ 1495  docker compose up airflow-init
+ 1496  sudo docker compose up airflow-init
+ 1497  vi docker-compose.yaml 
+ 1498  sudo docker compose up -d
+ 1499  vi docker-compose.yaml 
+ 1500  sudo docker compose down
+ 1501  sudo docker compose up -d
+ 1502  sudo docker compose up
+ 1503  sudo docker compose up -d
+ 1504  sudo docker logs airflow_docker-airflow-apiserver-1
+ 1505  sudo docker compose up -d
+ 1506  sudo docker ps
+ 1507  docker compose down
+ 1508  sudo docker compose down
+ 1509  cd airflow/
+ 1510  source airflow_env/bin/activate
+ 1511  ls
+ 1512  cd airflow_docker/
+ 1513  ls
+ 1514  sudo docker compose up -d
+ 1515  ls
+ 1516  cd airflow/
+ 1517  source airflow_env/bin/activate
+ 1518  ls
+ 1519  cd airflow_docker/
+ 1520  ls
+ 1521  sudo docker compose up -d
+ 1522  code .
+ 1523  source /home/ajay/airflow/airflow_env/bin/activate
+ 1524  /home/ajay/airflow/airflow_env/bin/python /home/ajay/airflow/airflow_docker/dags/first_dag.py
+ 1525  ls
+ 1526  df -h
+ 1527  sudo /etc/hosts
+ 1528  sudo /etc
+ 1529  sudo vi /etc/hosts
+ 1530  sudo systemd-resolve --fulsh-caches
+ 1531  sudo vi /etc/hosts
+ 1532  sudo apt install ufw
+ 1533  sudo ufw enable
+ 1534  nslookup facebook.com
+ 1535  sudo ufw deny from 163.70.146.35
+ 1536  sudo ufw status
+ 1537  sudo ufw deny out to 163.70.146.35
+ 1538  sudo ufw status
+ 1539  sudo vi /etc/hosts
+ 1540  ls
+ 1541  cd airflow/
+ 1542  ls
+ 1543  source airflow_env/bin activate
+ 1544  cd airflow_env/
+ 1545  ls
+ 1546  source ./bin/activate
+ 1547  cd ..
+ 1548  cd airflow_docker/
+ 1549  ls
+ 1550  docker compose -up
+ 1551  docker compose up
+ 1552  sudo docker compose up
+ 1553  ls
+ 1554  vi docker-compose.yaml 
+ 1555  ls
+ 1556  cd airflow/
+ 1557  ls
+ 1558  cd airflow_env/
+ 1559  source ./bin/activate
+ 1560  ls
+ 1561  cd ..
+ 1562  cd airflow_docker/
+ 1563  ls
+ 1564  docker compose up -d
+ 1565  sudo docker compose up -d
+ 1566  ls
+ 1567  cd airflow/
+ 1568  cd airflow_env/
+ 1569  source ./bin/activate
+ 1570  cd ..
+ 1571  cd airflow_docker/
+ 1572  ls
+ 1573  docker compose up -d
+ 1574  sudo docker compose up -d
+ 1575  sudo apt uninstall vscode
+ 1576  sudo uninstall vscode
+ 1577  snap instal code
+ 1578  snap install code
+ 1579  sudo apt autoremove
+ 1580  sudo snap remove code
+ 1581  sudo snap install code
+ 1582  sudo snap install code --classic
+ 1583  cd airflow/
+ 1584  ls
+ 1585  cd airflow_docker/
+ 1586  ls
+ 1587  cd ..
+ 1588  git status
+ 1589  cd ..
+ 1590  cd Airflow/
+ 1591  ls
+ 1592  git status
+ 1593  cd ..
+ 1594  cd Airflow/
+ 1595  ls
+ 1596  cd Airflow/
+ 1597  ls
+ 1598  git status
+ 1599  clear
+ 1600  cd ..
+ 1601  ls
+ 1602  cd airflow/
+ 1603  ls
+ 1604  cd ..
+ 1605  sudo rm airflow/
+ 1606  sudo rm -f airflow/
+ 1607  sudo rm -rf airflow/
+ 1608  ls
+ 1609  cd Airflow/Airflow/
+ 1610  ls
+ 1611  code .
+ 1612  sudo apt update
+ 1613  sudo datadog-agent status
+ 1614  cleat
+ 1615  clear
+ 1616  sudo systemctl status datadog-agent
+ 1617  vi /etc/datadog-agent/datadog.yaml
+ 1618  sudo systemctl restart datadog-agent
+ 1619  cd Downloads/
+ 1620  cd microservices-app/
+ 1621  sudo docker-compose up --build
+ 1622  sudo docker ps
+ 1623  sudo docker down
+ 1624  sudo docker stop $(docker ps -q)
+ 1625  sudo docker stop 
+ 1626  sudo docker stop ps
+ 1627  sudo docker ps
+ 1628  docker stop $(docker ps -a -q)
+ 1629  docker stop 0507b5ff0cd9
+ 1630  sudo docker stop 0507b5ff0cd9
+ 1631  sudo docker stop 651dba95b081
+ 1632  8c21086a484a
+ 1633  sudo systemctl datadog status
+ 1634  sudo systemctl status datadog-agent
+ 1635  sudo systemctl restart datadog-agent
+ 1636  htop
+ 1637  sudo systemctl status datadog-agent
+ 1638  reboot
+ 1639  sudo systemctl status datadog-agent
+ 1640  ps
+ 1641  vi /etc/datadog-agent/datadog.yaml
+ 1642  sudo vi /etc/datadog-agent/datadog.yaml
+ 1643  sudo systemctl status datadog-agent
+ 1644  cd Downloads/
+ 1645  ls
+ 1646  cd datadog_practical/
+ 1647  source datadogenv/bin/activate
+ 1648  python3 custom_metric5.py
+ 1649  python3 custom_metic5.py
+ 1650  sudo vi /etc/datadog-agent/datadog.yaml
+ 1651  cd /etc/datadog-agent/
+ 1652  ls
+ 1653  vi datadog.yaml.example 
+ 1654  clear
+ 1655  sudo vi /etc/datadog-agent/datadog.yaml
+ 1656  vi /etc/datadog-agent/datadog.yaml
+ 1657  sudo vi /etc/datadog-agent/datadog.yaml
+ 1658  sudo systemctl restart datadog-agent
+ 1659  sudo systemctl status datadog-agent
+ 1660  cd Downloads/datadog_practical/
+ 1661  cd ..
+ 1662  cd microservices-app/
+ 1663  sudo docker-compose up
+ 1664  sudo vi /etc/datadog-agent/datadog.yaml
+ 1665  sudo systemctl restart datadog-agent
+ 1666  sudo apt upgrade
+ 1667  clear
+ 1668  sudo prometheus --config.file=/etc/prometheus/prometheus.yml
+ 1669  sudo systemctl status prometheus
+ 1670  pwd
+ 1671  mkdir -p ~/prometheus
+ 1672  cd prometheus/
+ 1673  nano ~/prometheus/docker-compose.yml
+ 1674  ls
+ 1675  docker compose up -d
+ 1676  sudo docker-compose up -d
+ 1677  nano ~/prometheus/docker-compose.yml
+ 1678  sudo docker-compose up -d
+ 1679  ls -l
+ 1680  nano /home/ajay/prometheus/prometheus.yml
+ 1681  sudo nano /home/ajay/prometheus/prometheus.yml
+ 1682  vi prometheus.yml/
+ 1683  mv prometheus.yml/ ./prometheus1.yml/
+ 1684  ls
+ 1685  sudo nano /home/ajay/prometheus/prometheus.yml
+ 1686  ls -l
+ 1687  sudo docker-compose up -d
+ 1688  ls -l
+ 1689  vi docker-compose.yml 
+ 1690  vi prometheus.yml 
+ 1691  sudo vi prometheus.yml 
+ 1692  sudo docker-compose up -d
+ 1693  vi docker-compose.yml 
+ 1694  sudo docker-compose up -d
+ 1695  docker run -d   --name node-exporter   --net="host"   --pid="host"   -v "/:/host:ro,rslave"   prom/node-exporter   --path.rootfs=/host
+ 1696  sudo docker run -d   --name node-exporter   --net="host"   --pid="host"   -v "/:/host:ro,rslave"   prom/node-exporter   --path.rootfs=/host
+ 1697  docker ps
+ 1698  sudo docker ps
+ 1699  sudo docker run -d   --name node-exporter   --net=host   --restart unless-stopped   prom/node-exporter
+ 1700  sudo docker run -d   --name node-exporter1   --net=host   --restart unless-stopped   prom/node-exporter
+ 1701  sudo vi prometheus.yml 
+ 1702  sudo docker restart prometheus
+ 1703  sudo docker ps
+ 1704  sudo vi prometheus.yml 
+ 1705  cd
+ 1706  ls
+ 1707  cd prometheus/
+ 1708  ls
+ 1709  sudo docker ps
+ 1710  sudo docker stop 11a64289a539
+ 1711  sudo docker ps
+ 1712  sudo docker stop da7b2f08b4f3
+ 1713  clear
+ 1714  ls
+ 1715  sudo docker-compose up -d
+ 1716  cd 
+ 1717  cd /etc/
+ 1718  cd prometheus/
+ 1719  ls
+ 1720  nano prometheus.yml 
+ 1721  sudo nano prometheus.yml 
+ 1722  ls
+ 1723  cd prometheus/
+ 1724  ls
+ 1725  sudo docker-compose up -d
+ 1726  cd ..
+ 1727  cd Downloads/python_files/
+ 1728  ls
+ 1729  pip install -r requirements.txt
+ 1730  python venv -m env
+ 1731  python3 venv -m env
+ 1732  python3 -m venv promenv
+ 1733  source ./promenv/bin/activate
+ 1734  pip install -r requirements.txt
+ 1735  python3 api_monitor.py --config config.yaml --port 8000 --interval 60
+ 1736  ls
+ 1737  sudo docker-compose up -d
+ 1738  python3 api_monitor.py --config config.yaml --port 8000 --interval 60
+ 1739  cd
+ 1740  cd /etc/prometheus/
+ 1741  sudo vi prometheus.yml 
+ 1742  mv prometheus.yml ./prometheus2.yml
+ 1743  ls
+ 1744  vi prometheus.yml
+ 1745  ls
+ 1746  vi prometheus.yml 
+ 1747  vi prometheus1.yml/
+ 1748  vi prometheus2.yml/
+ 1749  vi prometheus2.yml
+ 1750  vi prometheus.yml
+ 1751  cd 
+ 1752  cd api_monitor_v2/
+ 1753  ls
+ 1754  vi app.py 
+ 1755  ls
+ 1756  vi generate_openmetrics.py
+ 1757  python3 generate_openmetrics.py 
+ 1758  vi generate_openmetrics.py
+ 1759  python3 generate_openmetrics.py 
+ 1760  ls
+ 1761  vi metrics.txt 
+ 1762  ls
+ 1763  ls -a
+ 1764  vi metrics.txt 
+ 1765  cd
+ 1766  pwd
+ 1767  mkdir backfil_prom
+ 1768  cd backfil_prom/
+ 1769  ls
+ 1770  chmod +x backfill.sh 
+ 1771  ./backfill.sh 
+ 1772  vi backfill.sh 
+ 1773  ./backfill.sh 
+ 1774  cd prometheus/
+ 1775  ls
+ 1776  docker ps 
+ 1777  sudo docker ps 
+ 1778  docker stop edc614231455
+ 1779  sudo docker stop edc614231455
+ 1780  sudo docker stop 11a64289a539
+ 1781  sudo docker stop da7b2f08b4f3
+ 1782  sudo docker ps
+ 1783  sudo docker ps -a
+ 1784  docker prune
+ 1785  docker container prune
+ 1786  sudo docker container prune
+ 1787  clear
+ 1788  ls
+ 1789  sudo docker ps
+ 1790  ls
+ 1791  pwd
+ 1792  ls
+ 1793  sudo docker stop 957e572474e1
+ 1794  sudo docker stop 4e578075dd23
+ 1795  sudo docker stop ad79cbb72823
+ 1796  sudo docker container prune
+ 1797  clear
+ 1798  sudo docker ps
+ 1799  cd /etc/prometheus/
+ 1800  ls
+ 1801  rm prometheus.yml 
+ 1802  rm prometheus1.yml 
+ 1803  ls
+ 1804  cd prometheus/
+ 1805  ls
+ 1806  cd ..
+ 1807  cd api_monitor_v2/
+ 1808  ls
+ 1809  sudo docker ps
+ 1810  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)":/work   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /work/metrics.txt   /work/prometheus-data
+ 1811  ls
+ 1812  sudo docker-compose down
+ 1813  sudo docker-compose up -d
+ 1814  ls
+ 1815  head -n 20 metrics.txt
+ 1816  vi generate_openmetrics.py 
+ 1817  mv generate_openmetrics.py ./generate_openmetrics_old.py 
+ 1818  vi generate_openmetrics.py 
+ 1819  python3 generate_openmetrics.py
+ 1820  tail -n 5 metrics.txt
+ 1821  date +%s000
+ 1822  vi generate_openmetrics.py 
+ 1823  python3 generate_openmetrics.py
+ 1824  ls
+ 1825  ls -ltr
+ 1826  tail -n 5 metrics.txt
+ 1827  sudo docker-compose down
+ 1828  rm -rf prometheus-data
+ 1829  sudo rm -rf prometheus-data
+ 1830  mkdir prometheus-data
+ 1831  chmod 777 prometheus-data
+ 1832  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)":/work   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /work/metrics.txt   /work/prometheus-data
+ 1833  sudo docker-compose up -d
+ 1834  vi sanitize_openmetrics.py
+ 1835  python3 sanitize_openmetrics.py 
+ 1836  tail -n 5 metrics_fixed.txt
+ 1837  sudo docker-compose down
+ 1838  rm -rf prometheus-data
+ 1839  sudo rm -rf prometheus-data
+ 1840  mkdir prometheus-data
+ 1841  chmod 777 prometheus-data
+ 1842  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)":/work   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /work/metrics_fixed.txt   /work/prometheus-data
+ 1843  vi metrics.txt 
+ 1844  vi metrics_fixed.txt 
+ 1845  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)":/work   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /work/metrics_fixed.txt   /work/prometheus-data
+ 1846  python3 sanitize_openmetrics.py 
+ 1847  sudo docker-compose down
+ 1848  sudo docker ps
+ 1849  sudo rm -rf prometheus-data
+ 1850  mkdir prometheus-data
+ 1851  chmod 777 prometheus-data
+ 1852  python3 sanitize_openmetrics.py
+ 1853  tail -n 5 metrics_fixed.txt
+ 1854  vi metrics_fixed.txt 
+ 1855  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)":/work   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /work/metrics_fixed.txt   /work/prometheus-data
+ 1856  ✅
+ 1857  ls -ltr
+ 1858  awk '{print $NF}' metrics_fixed.txt | grep -E '^[0-9]{14,}$' | head
+ 1859  awk '
+ 1860  /^#/ { print; next }
+ 1861  NF < 3 { next }
+ 1862  {
+ 1863    ts = $NF
+ 1864    if (ts > 10000000000000) ts = int(ts / 1000)
+ 1865    $NF = ts
+ 1866    print
+ 1867  }
+ 1868  END { print "# EOF" }
+ 1869  ' metrics_fixed.txt > metrics_ms.txt
+ 1870  tail -n 5 metrics_ms.txt
+ 1871  sudo docker-compose down
+ 1872  sudo rm -rf prometheus-data
+ 1873  mkdir prometheus-data
+ 1874  chmod 777 prometheus-data
+ 1875  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)":/work   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /work/metrics_ms.txt   /work/prometheus-data
+ 1876  vi metrics_fixed.txt 
+ 1877  vi metrics_ms.txt 
+ 1878  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)":/work   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /work/metrics_ms.txt   /work/prometheus-data
+ 1879  vi metrics_ms.txt 
+ 1880  sudo docker run --rm   -v "$(pwd)":/work   prom/prometheus:latest   sh -c 'ls -l /work && echo "----" && tail -n 5 /work/metrics_ms.txt'
+ 1881  sudo docker run --rm   --entrypoint sh   -v "$(pwd)":/work   prom/prometheus:latest   -c 'ls -l /work && echo "----" && tail -n 5 /work/metrics_ms.txt'
+ 1882  sudo docker run --rm   --entrypoint sh   -v "$(pwd)":/work   prom/prometheus:latest   -c 'ls -l /work && echo "----" && tail -n 5 /work/metrics_ms.txt'
+ 1883  ls
+ 1884  rm metrics.txt 
+ 1885  rm metrics_fixed.txt 
+ 1886  ls
+ 1887  sudo docker-compose down
+ 1888  sudo rm -rf prometheus-data
+ 1889  mkdir prometheus-data
+ 1890  chmod 777 prometheus-data
+ 1891  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)/metrics_ms.txt":/metrics.txt   -v "$(pwd)/prometheus-data":/data   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /metrics.txt   /data
+ 1892  vi metrics_ms.txt 
+ 1893  cd prometheus-data/
+ 1894  ls
+ 1895  cd ..
+ 1896  sudo docker-compose up -d
+ 1897  vi verify.py
+ 1898  python3 verify.py 
+ 1899  :q
+ 1900  sudo docker stop
+ 1901  sudo docker-compsoe down
+ 1902  sudo docker-compose down
+ 1903  sudo docker-compose up -d
+ 1904  ls
+ 1905  cd api_monitor_v2/
+ 1906  la
+ 1907  ls
+ 1908  lr
+ 1909  ls -ltr
+ 1910  cd prometheus-data/
+ 1911  ls
+ 1912  cd 01KF10MPGC5QNM2PR9QE6Y7CJK/
+ 1913  ls
+ 1914  cd ..
+ 1915  vi metrics_ms.txt 
+ 1916  sudo docker run --rm   --entrypoint promtool   -v "$(pwd)/metrics_ms.txt":/metrics.txt   -v "$(pwd)/prometheus-data":/data   prom/prometheus:latest   tsdb create-blocks-from openmetrics   /metrics.txt   /data
+ 1917  ls
+ 1918  vi docker-compose.yml 
+ 1919  sudo docker-compose up -d
+ 1920  sudo lsop -ln
+ 1921  sudo lsof -ln
+ 1922  sudo lsof -ln | grep 9090
+ 1923  clear
+ 1924  sudo docker-compose down
+ 1925  cd api_monitor_v2/
+ 1926  sudo docker-compose down
+ 1927  cd 
+ 1928  sudo apt update
+ 1929  sudo apt upgrade -y
+ 1930  sudo apt install postgresql postgresql-contrib -y
+ 1931  sudo systemctl start postgresql
+ 1932  sudo systemctl enable postgresql
+ 1933  sudo systemctl status postgresql
+ 1934  sudo systemctl status postgresql
+ 1935  dpkg -l | grep postgresql
+ 1936  psql --version
+ 1937  sudo -i -u postgres
+ 1938  psql -h localhost -U appuser -d metricsdb
+ 1939  vi python_postgres.py
+ 1940  python3 python_postgres.py 
+ 1941  pip3 install psycopg2
+ 1942  python3 -m venv postrges_env
+ 1943  source ./postrges_env/bin/activate
+ 1944  pip3 install psycopg2
+ 1945  pip install psycopg2-binary
+ 1946  python -c "import psycopg2; print(psycopg2.__version__)"
+ 1947  python3 python_postgres.py 
+ 1948  vi python_postgres.py 
+ 1949  python3 python_postgres.py 
+ 1950  vi python_postgres.py 
+ 1951  python3 python_postgres.py 
+ 1952  vi python_postgres.py 
+ 1953  python3 python_postgres.py 
+ 1954  sudo systemctl status grafana-server
+ 1955  sudo systemctl start grafana-server
+ 1956  sudo systemctl status grafana-server
+ 1957  cd /home/ajay/Downloads/data
+ 1958  ls
+ 1959  cd data/
+ 1960  ls
+ 1961  cd airflow/
+ 1962  ls
+ 1963  cd teams/
+ 1964  ls
+ 1965  cd payments_pmg/
+ 1966  ls
+ 1967  cd projects/
+ 1968  ls
+ 1969  code .
+ 1970  psql -i -u appsuer
+ 1971  sudo -i -u appsuer
+ 1972  sudo -i -u postgres
+ 1973  ls
+ 1974  sudo systemctl start grafana-server
+ 1975  sudo systemctl status grafana-server
+ 1976  cd
+ 1977  pwd
+ 1978  ls
+ 1979  vi python_postgres.py 
+ 1980  python3 python_postgres.py 
+ 1981  vi python_postgres.py 
+ 1982  python3 python_postgres.py 
+ 1983  cd prometheus/
+ 1984  ls
+ 1985  ls -a
+ 1986  cd ..
+ 1987  ls
+ 1988  cd myenv/
+ 1989  source ./bin/activate
+ 1990  cd ..
+ 1991  python3 python_postgres.py 
+ 1992  cd Downloads/
+ 1993  ls
+ 1994  source ./bin/activateclear
+ 1995  clear
+ 1996  exit
+ 1997  history
+ 1998  history >> ./out.txt
